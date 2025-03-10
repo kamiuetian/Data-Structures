@@ -24,7 +24,7 @@ public:
             std::cout << "Stack Overflow!" << std::endl;
             return;
         }
-        top+=1
+        top+=1;
         arr[top] = value; // Increment top and insert value
     }
 
@@ -59,16 +59,16 @@ public:
 
 int main() {
     StaticStack s;
-    s.push(10);
-    s.push(20);
-    s.push(30);
+    //s.push(1);
+    //s.push(20);
+    //s.push(30);
 
-    s.display(); // Output: 30 20 10
+   // s.display(); // Output: 30 20 10
 
     std::cout << "Top element: " << s.peek() << std::endl; // Output: 30
 
-    s.pop();
-    s.display(); // Output: 20 10
+   // s.pop();
+   // s.display(); // Output: 20 10
 
     return 0;
 }

@@ -4,3 +4,6 @@
 *.docx
 *.doc
 .gitattributes
+# Ignore 'midterm' and 'terminal' folders (case insensitive)
+[Mm][Ii][Dd][Tt][Ee][Rr][Mm]/
+[Tt][Ee][Rr][Mm][Ii][Nn][Aa][Ll]/
